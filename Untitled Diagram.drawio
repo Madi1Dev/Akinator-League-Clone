@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T15:19:07.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wH5riIV-djiI7MCGwjLC" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T15:38:46.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hvshGN-073Iiu4vsMR8A" version="20.2.8" type="github">
   <diagram id="Z1RR6mmJHM-_WVOXm7XX" name="Page-1">
     <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mfH-ndN-9czuZ-7a6wpf-1" value="AKINATOR LOL CLONE CHAMPIONS DATABASE FILTERED BY REGION" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;fillStyle=auto;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="10" y="370" width="820" height="460" as="geometry" />
+          <mxGeometry x="10" y="370" width="820" height="520" as="geometry" />
         </mxCell>
         <mxCell id="mfH-ndN-9czuZ-7a6wpf-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-1">
           <mxGeometry y="30" width="820" height="30" as="geometry" />
@@ -228,7 +228,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-4" value="Garen," style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-2">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-4" value="fiora, galio, garen, jarvan iv, kayle, lucian, lux, morgana, poppy, quinn, shyvana, sona, sylas, vayne, xin zhao" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-2">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -241,7 +241,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-7" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-5">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-7" value="elise, gwen, hecarim, kalista, karthus, maokai, thresh, vex, viego, yorick" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-5">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -254,7 +254,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-10" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;sketch=0;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-8">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-10" value="cassiopeia, darius, draven, katarina, kled, leblanc, mordekaiser, riven, samira, sion, swain, talon, vladimir" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;sketch=0;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-8">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -267,7 +267,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-16" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-14">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-16" value="akshan, amumu, azir, nasus, rammus, renekton, rengar, sivir, skarner, taliyah, xerath" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-14">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -280,7 +280,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-19" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-17">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-19" value="ahri, akali, irelia, ivern, jhin, karma, kayn, kennen, lee sin, lillia, master yi, wukong, rakan, sett, shen, syndra, varus, xayah, yasuo, yone, zed" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-17">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -293,7 +293,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-22" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-20">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-22" value="fizz, gangplank, graves, illaoi, miss fortune, nautilus, pyke, tahm kench, twisted fate" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-20">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -306,7 +306,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-25" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-23">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-25" value="malphite, neeko, nidalee, qiyana, rengar, zyra" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-23">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -319,7 +319,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-28" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-26">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-28" value="corki, lulu, rumble, teemo, tristana, veigar, yuumi" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-26">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -332,7 +332,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-31" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-29">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-31" value="caitlyn, camille, ezreal, heimerdinger, jayce, orianna, seraphine, vi" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-29">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -345,7 +345,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-43" value="Value 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-41">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-43" value="blitzcrank, dr mundo, ekko, janna, jinx, renata glasc, singed, twitch, urgot, viktor, warwick, zac, ziggs, zeri" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-41">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -353,12 +353,12 @@
         <mxCell id="mfH-ndN-9czuZ-7a6wpf-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-1">
           <mxGeometry y="330" width="820" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-33" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-32">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-33" value="THE FRELJORD" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-32">
           <mxGeometry width="110" height="30" as="geometry">
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-34" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-32">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-34" value="anivia, ashe, braum, gnar, gragas, lissandra, nunu and willump, olaf, ornn, sejuani, trundle, tryndamere, udyr, volibear" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-32">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -366,12 +366,38 @@
         <mxCell id="mfH-ndN-9czuZ-7a6wpf-35" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-1">
           <mxGeometry y="360" width="820" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-36" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-35">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-36" value="THE VOID" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-35">
           <mxGeometry width="110" height="30" as="geometry">
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfH-ndN-9czuZ-7a6wpf-37" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;sketch=0;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-35">
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-37" value="bel&#39;veth, cho&#39;gath, kai&#39;sa, kassadin, kha&#39;zix, kog&#39;maw, malzahar, rek&#39;sai, vel&#39;koz" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;sketch=0;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-35">
+          <mxGeometry x="110" width="710" height="30" as="geometry">
+            <mxRectangle width="710" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-44" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-1">
+          <mxGeometry y="390" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-45" value="TARGON" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-44">
+          <mxGeometry width="110" height="30" as="geometry">
+            <mxRectangle width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-46" value="aphelios, aurelion sol, diana, leona, pantheon, soraka, taric, zoe" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;sketch=0;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-44">
+          <mxGeometry x="110" width="710" height="30" as="geometry">
+            <mxRectangle width="710" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-1">
+          <mxGeometry y="420" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-48" value="MISC." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fillStyle=auto;fontSize=10;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-47">
+          <mxGeometry width="110" height="30" as="geometry">
+            <mxRectangle width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfH-ndN-9czuZ-7a6wpf-49" value="alistar,&amp;nbsp; annie, bard, brand, evelynn, fiddlesticks, jax, kindred, nami, nilah, nocturne, rell, ryze, senna, shaco, zilean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fillStyle=auto;fontSize=10;sketch=0;" vertex="1" parent="mfH-ndN-9czuZ-7a6wpf-47">
           <mxGeometry x="110" width="710" height="30" as="geometry">
             <mxRectangle width="710" height="30" as="alternateBounds" />
           </mxGeometry>
