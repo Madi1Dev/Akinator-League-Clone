@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T00:16:22.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7tTVjrXRWV4-n6JSoMgT" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T00:18:40.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hIpeWHFwMq1Ydcgm196q" version="20.2.8" type="github">
   <diagram id="Z1RR6mmJHM-_WVOXm7XX" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -641,6 +641,9 @@
         </mxCell>
         <mxCell id="JPr3L9YZvZo8pwGkN5dZ-152" value="&lt;span style=&quot;color: rgb(255, 204, 230); font-size: 20px; text-align: left;&quot;&gt;alistar,&amp;nbsp; annie, bard, brand, evelynn, fiddlesticks, jax, kindred, nami, nilah, nocturne, rell, ryze, senna, shaco, zilean&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=default;fontSize=21;fontColor=#FFD966;" vertex="1" parent="1">
           <mxGeometry x="231.13" y="2572" width="173.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JPr3L9YZvZo8pwGkN5dZ-153" value="Creating champion connections (2+, must include all)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="19" y="1525" width="371" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
