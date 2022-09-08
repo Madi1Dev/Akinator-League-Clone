@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T09:37:03.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ACM1c1nmY4YUdJuFMbmr" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T07:41:51.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QqpVO5G5u2v8QX43UA1C" version="20.2.8" type="github">
   <diagram id="Z1RR6mmJHM-_WVOXm7XX" name="Page-1">
-    <mxGraphModel dx="1886" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -648,63 +648,8 @@
         <mxCell id="JPr3L9YZvZo8pwGkN5dZ-154" value="ALLOW FOR LAYERED LOGIC (simultaneous possibilities)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="467" y="1527" width="361" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-1" value="Each champion is represented by an object with qualities.&lt;br&gt;These qualities determine the sorting of the question and answer.&lt;br&gt;if/ else statements determine which path of the tree to go down." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="bVKSa2CYWbUAD37j8VWF-1" value="Each champion is represented by an object with qualities.&lt;br&gt;These qualities determine the sorting of the question and answer.&lt;br&gt;if/ else statements determine which path of the tree to go down." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="14" y="1519" width="365" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-3" value="DEMACIA" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="18.26" y="2852" width="811.74" height="553" as="geometry" />
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-3">
-          <mxGeometry y="30" width="811.74" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-4">
-          <mxGeometry width="129.03166666666667" height="30" as="geometry">
-            <mxRectangle width="129.03166666666667" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-6" value="Champion object qualities" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-4">
-          <mxGeometry x="129.03166666666667" width="682.7083333333334" height="30" as="geometry">
-            <mxRectangle width="682.7083333333334" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-3">
-          <mxGeometry y="60" width="811.74" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-8" value="Fiora" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-7">
-          <mxGeometry width="129.03166666666667" height="30" as="geometry">
-            <mxRectangle width="129.03166666666667" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-9" value="Type: AD, " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-7">
-          <mxGeometry x="129.03166666666667" width="682.7083333333334" height="30" as="geometry">
-            <mxRectangle width="682.7083333333334" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-3">
-          <mxGeometry y="90" width="811.74" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-11" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-10">
-          <mxGeometry width="129.03166666666667" height="30" as="geometry">
-            <mxRectangle width="129.03166666666667" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-12" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-10">
-          <mxGeometry x="129.03166666666667" width="682.7083333333334" height="30" as="geometry">
-            <mxRectangle width="682.7083333333334" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-3">
-          <mxGeometry y="120" width="811.74" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-14" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-13">
-          <mxGeometry width="129.03166666666667" height="30" as="geometry">
-            <mxRectangle width="129.03166666666667" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVKSa2CYWbUAD37j8VWF-15" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="bVKSa2CYWbUAD37j8VWF-13">
-          <mxGeometry x="129.03166666666667" width="682.7083333333334" height="30" as="geometry">
-            <mxRectangle width="682.7083333333334" height="30" as="alternateBounds" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
