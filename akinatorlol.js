@@ -239,7 +239,7 @@ function setNextTwo() {
     answersBox.appendChild(buttonMaybe);
     answersBox.appendChild(buttonNo);
 
-    gameStarts();
+    firstSeries();
   });
 }
 
@@ -249,113 +249,281 @@ function setNextTwo() {
 // phase two
 // game starts
 
-function gameStarts() {
+function firstSeries() {
   // QUESTIONS AND ANSWERS
 
   const questionsDatabase = [
     {
       // 0
       question: "Is your champion from Demacia?", // console log to check for what this actually is
-      followupQuestions: [
+      followupQuestionsOne: [
         {
-          question: "Does your champion fight with chains?",
-          answer: {
-            name: "Sylas",
-          },
+          question: "Is your champion somehow related to magic?",
+          followupQuestionsTwo: [
+            {
+              question: "Was your champion imprisoned for over a decade?",
+              answer: {
+                name: "Sylas",
+              },
+            },
+            {
+              question: "Is your champion related to Garen?",
+              answer: {
+                name: "Lux",
+              },
+            },
+            {
+              question: "Is your champion a golem?",
+              answer: {
+                name: "Galio",
+              },
+            },
+          ],
         },
         {
-          question: "Does your champion breathe fire?",
-          answer: {
-            name: "Shyvana",
-          },
+          question: "Does your champion have a connection with dragons?",
+          followupQuestionsTwo: [
+            {
+              question: "Is your champion a dragon?",
+              answer: {
+                name: "Shyvana",
+              },
+            },
+            {
+              question:
+                "Has your championed recruited a dragon into their service?",
+              answer: {
+                name: "Jarvan IV",
+              },
+            },
+          ],
         },
         {
-          question: "Does your champion always camp bushes?",
-          answer: {
-            name: "Garen",
-          },
+          question: "Does your champion have wings?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion represent divine justice?",
+              answer: {
+                name: "Kayle",
+              },
+            },
+            {
+              question: "Is your champion a fallen angel?",
+              answer: {
+                name: "Morgana",
+              },
+            },
+          ],
         },
       ],
     },
     {
       // 1
       question: "Is your champion from the Shadow Isles?",
-      followupQuestions: [
+      followupQuestionsOne: [
         {
-          question: "Does your champion fight with chains?",
-          answer: {
-            name: "Thresh",
-          },
+          question: "Is your champion tied to Isolde?",
+          followupQuestionsTwo: [
+            {
+              question: "Is your champion a doll?",
+              answer: {
+                name: "Gwen",
+              },
+            },
+            {
+              question: "Was your champion a king?",
+              answer: {
+                name: "Viego",
+              },
+            },
+          ],
         },
         {
-          question: "Did your champion ride a steed in life?",
-          answer: {
-            name: "Hecarim",
-          },
+          question: "Was your champion in the service of King Viego?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion throw spears?",
+              answer: {
+                name: "Kalista",
+              },
+            },
+            {
+              question: "Is your champion half steed-half human?",
+              answer: {
+                name: "Hecarim",
+              },
+            },
+          ],
         },
         {
-          question: "Is your champion's ultimate global?",
-          answer: {
-            name: "Karthus",
-          },
+          question: "Is your champion magic oriented?",
+          followupQuestionsTwo: [
+            {
+              question: "Is your champion's ultimate global?",
+              answer: {
+                name: "Karthus",
+              },
+            },
+            {
+              question: "Is your champion a yordle?",
+              answer: {
+                name: "Vex",
+              },
+            },
+          ],
         },
       ],
     },
     {
       // 2
       question: "Is your champion from Noxus?",
-      followupQuestions: [
+      followupQuestionsOne: [
         {
-          question: "Is your champion considered an exile?",
-          answer: {
-            name: "Riven",
-          },
+          question: "Does your champion have a sister?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Does your champion use daggers as their primary weapon?",
+              answer: {
+                name: "Katarina",
+              },
+            },
+            {
+              question: "Has your character turned into a snake?",
+              answer: {
+                name: "Cassiopeia",
+              },
+            },
+          ],
         },
         {
-          question: "Does your champion need an ego check?",
-          answer: {
-            name: "Draven",
-          },
+          question: "Does your champion have a brother?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion need an ego check?",
+              answer: {
+                name: "Draven",
+              },
+            },
+            {
+              question:
+                "Has your champion been broken for the past 5 years and still hasn't gotten a nerf?",
+              answer: {
+                name: "Darius",
+              },
+            },
+          ],
         },
         {
-          question: "Was your champion too angry to die?",
-          answer: {
-            name: "Mordekaiser",
-          },
+          question:
+            "Has your champion come back to the corporeal realm in one way or another?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Is your champion trapped beneath the Immortal Bastion?",
+              answer: {
+                name: "Mordekaiser",
+              },
+            },
+            {
+              question:
+                "Has your champion been irrelevant until Babus became popular?",
+              answer: {
+                name: "Sion",
+              },
+            },
+          ],
         },
       ],
     },
     {
       // 3
       question: "Is your champion from Shurima?",
-      followupQuestions: [
+      followupQuestionsOne: [
         {
-          question:
-            "Was your champion the Shuriman emperor thousands of years ago?",
-          answer: {
-            name: "Azir",
-          },
+          question: "Is your champion tied to the ascendant?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Was your champion the Shuriman Emperor thousands of years ago?",
+              answer: {
+                name: "Azir",
+              },
+            },
+            {
+              question: "Is your champion a traitor?",
+              answer: {
+                name: "Xerath",
+              },
+            }, // this is where the tree would deepen for Nasus and Reneketon into followupQuestionsThree
+          ],
         },
         {
-          question: "Is your champion a void creature?",
-          answer: {
-            name: "Rek'Sai",
-          },
+          question: "Is your champion human?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion weave stones?",
+              answer: {
+                name: "Taliyah",
+              },
+            },
+            {
+              question: "Is your champion a mercenary?",
+              answer: {
+                name: "Sivir",
+              },
+            },
+          ],
         },
         {
-          question: "Is your character a traitor?",
-          answer: {
-            name: "Xerath",
-          },
+          question: "Is your champion relatively small?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Is your champion really, really, really sad, all the time?",
+              answer: {
+                name: "Amumu",
+              },
+            },
+            {
+              question: "Does your character know only one word?",
+              answer: {
+                name: "Rammus",
+              },
+            },
+          ],
         },
       ],
     },
   ];
 
-  const shuffledQuestions = questionsDatabase.sort(() => Math.random() - 0.5);
-  firstSeries(shuffledQuestions[0]);
+  function restartTheGame() {
+    // game restarts at first series
+    restartButton.removeEventListener("click", restartTheGame);
+    restartButton.remove();
 
-  function firstSeries(questions) {
+    answersBox.appendChild(buttonYes);
+    answersBox.appendChild(buttonMaybe);
+    answersBox.appendChild(buttonNo);
+
+    buttonYes.removeEventListener("click", secondSeries);
+    buttonNo.removeEventListener("click", firstSeriesNo);
+
+    firstSeries();
+  }
+
+  function liar() {
+    // if the options for possible answers are exhausted the game restarts
+    jhinTextBoxTwo.innerHTML =
+      "Your champion doesn't exist! Click restart to play again.";
+    answersBox.appendChild(restartButton);
+    restartButton.addEventListener("click", restartTheGame, { once: true });
+  }
+
+  const shuffledQuestions = questionsDatabase.sort(() => Math.random() - 0.5);
+  firstSeriesQuestions(shuffledQuestions[0]);
+
+  function firstSeriesQuestions(questions) {
     jhinTextBoxTwo.innerHTML = questions.question;
     buttonYes.addEventListener("click", secondSeries, { once: true }); // if yes, second series
     buttonNo.addEventListener("click", firstSeriesNo, { once: true }); // if no, removes options from first series one by one until yes OR restart
@@ -369,7 +537,7 @@ function gameStarts() {
         const shuffledQuestions = questionsDatabase.sort(
           () => Math.random() - 0.5
         );
-        firstSeries(shuffledQuestions[0]);
+        firstSeriesQuestions(shuffledQuestions[0]);
       } else {
         jhinTextBoxTwo.innerHTML =
           "Your champion isn't real! Click restart to play again.";
@@ -382,8 +550,365 @@ function gameStarts() {
     }
   }
 
+  // if first series succeeds, second series
+  function secondSeries() {
+    console.log("woo!");
+    buttonYes.removeEventListener("click", secondSeries);
+    buttonNo.removeEventListener("click", firstSeries);
+    buttonNo.removeEventListener("click", secondSeries);
+    buttonNo.removeEventListener("click", firstSeriesNo);
+
+    if (questionsDatabase[0].followupQuestionsOne.length === 0) {
+      liar(); // if all the possible answers are exhausted
+    } else {
+      const shuffledQuestions = questionsDatabase[0].followupQuestionsOne.sort(
+        () => Math.random() - 0.5
+      );
+      secondSeriesQuestions(shuffledQuestions[0]);
+    }
+  }
+
+  // if no in second series
+  function secondSeriesNo() {
+    {
+      if (questionsDatabase[0].followupQuestionsOne.length > 1) {
+        questionsDatabase[0].followupQuestionsOne.shift();
+        console.log(questionsDatabase[0].followupQuestionsOne);
+        const shuffledQuestions =
+          questionsDatabase[0].followupQuestionsOne.sort(
+            () => Math.random() - 0.5
+          );
+        secondSeriesQuestions(shuffledQuestions[0]);
+      } else {
+        jhinTextBoxTwo.innerHTML =
+          "Your champion isn't real! Click restart to play again.";
+        buttonYes.remove();
+        buttonNo.remove();
+        buttonMaybe.remove();
+        answersBox.appendChild(restartButton);
+        restartButton.addEventListener("click", restartTheGame, { once: true });
+      }
+    }
+  }
+
+  // if yes in second series, then second series questions
+  function secondSeriesQuestions(questions) {
+    jhinTextBoxTwo.innerHTML = questions.question;
+    buttonYes.addEventListener("click", thirdSeries, { once: true }); // if yes, second series
+    buttonNo.addEventListener("click", secondSeriesNo, { once: true }); // if no, removes options from first series one by one until yes OR restart
+  }
+
+  // if second series succeeds, third series
+  function thirdSeries() {
+    console.log("getting there!");
+    buttonYes.removeEventListener("click", thirdSeries);
+    buttonNo.removeEventListener("click", thirdSeries);
+    buttonNo.removeEventListener("click", secondSeriesNo);
+
+    if (
+      questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo
+        .length === 0
+    ) {
+      liar();
+    } else {
+      const shuffledQuestions =
+        questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo.sort(
+          // this works just fine
+          () => Math.random() - 0.5
+        );
+      thirdSeriesQuestions(shuffledQuestions[0]);
+    }
+  }
+
+  function thirdSeriesQuestions(questions) {
+    jhinTextBoxTwo.innerHTML = questions.question;
+    buttonYes.addEventListener("click", jhinGuess, { once: true });
+    buttonNo.addEventListener(
+      "click",
+      function () {
+        questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo.shift();
+        console.log(
+          questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo
+        );
+
+        thirdSeries(); // questionable
+      },
+      { once: true }
+    );
+  }
+
+  function jhinGuess() {
+    // jhin attempts to guess the answer
+    console.log("jhinGuess");
+    console.log(questionsDatabase);
+    jhinTextBoxTwo.innerHTML = `Your champion is ${questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo[0].answer.name}!`;
+    // answer sometimes returns as undefined for whatever reason, doesn't seem to cause an issue at all though
+    // probably because jhinGuess is triggered pre-emptively somewhere
+    buttonYes.removeEventListener("click", jhinGuess);
+  }
+}
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* WORKING VERSION THREE
+function firstSeries() {
+  // QUESTIONS AND ANSWERS
+
+  const questionsDatabase = [
+    {
+      // 0
+      question: "Is your champion from Demacia?", // console log to check for what this actually is
+      followupQuestionsOne: [
+        {
+          question: "Is your champion somehow related to magic?",
+          followupQuestionsTwo: [
+            {
+              question: "Was your champion imprisoned for over a decade?",
+              answer: {
+                name: "Sylas",
+              },
+            },
+            {
+              question: "Is your champion related to Garen?",
+              answer: {
+                name: "Lux",
+              },
+            },
+            {
+              question: "Is your champion a golem?",
+              answer: {
+                name: "Galio",
+              },
+            },
+          ],
+        },
+        {
+          question: "Does your champion have a connection with dragons?",
+          followupQuestionsTwo: [
+            {
+              question: "Is your champion a dragon?",
+              answer: {
+                name: "Shyvana",
+              },
+            },
+            {
+              question:
+                "Has your championed recruited a dragon into their service?",
+              answer: {
+                name: "Jarvan IV",
+              },
+            },
+          ],
+        },
+        {
+          question: "Does your champion have wings?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion represent divine justice?",
+              answer: {
+                name: "Kayle",
+              },
+            },
+            {
+              question: "Is your champion a fallen angel?",
+              answer: {
+                name: "Morgana",
+              },
+            },
+          ],
+        },
+      ],
+    },
+    {
+      // 1
+      question: "Is your champion from the Shadow Isles?",
+      followupQuestionsOne: [
+        {
+          question: "Is your champion tied to Isolde?",
+          followupQuestionsTwo: [
+            {
+              question: "Is your champion a doll?",
+              answer: {
+                name: "Gwen",
+              },
+            },
+            {
+              question: "Was your champion a king?",
+              answer: {
+                name: "Viego",
+              },
+            },
+          ],
+        },
+        {
+          question: "Was your champion in the service of King Viego?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion throw spears?",
+              answer: {
+                name: "Kalista",
+              },
+            },
+            {
+              question: "Is your champion half steed-half human?",
+              answer: {
+                name: "Hecarim",
+              },
+            },
+          ],
+        },
+        {
+          question: "Is your champion magic oriented?",
+          followupQuestionsTwo: [
+            {
+              question: "Is your champion's ultimate global?",
+              answer: {
+                name: "Karthus",
+              },
+            },
+            {
+              question: "Is your champion a yordle?",
+              answer: {
+                name: "Vex",
+              },
+            },
+          ],
+        },
+      ],
+    },
+    {
+      // 2
+      question: "Is your champion from Noxus?",
+      followupQuestionsOne: [
+        {
+          question: "Does your champion have a sister?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Does your champion use daggers as their primary weapon?",
+              answer: {
+                name: "Katarina",
+              },
+            },
+            {
+              question: "Has your character turned into a snake?",
+              answer: {
+                name: "Cassiopeia",
+              },
+            },
+          ],
+        },
+        {
+          question: "Does your champion have a brother?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion need an ego check?",
+              answer: {
+                name: "Draven",
+              },
+            },
+            {
+              question:
+                "Has your champion been broken for the past 5 years and still hasn't gotten a nerf?",
+              answer: {
+                name: "Darius",
+              },
+            },
+          ],
+        },
+        {
+          question:
+            "Has your champion come back to the corporeal realm in one way or another?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Is your champion trapped beneath the Immortal Bastion?",
+              answer: {
+                name: "Mordekaiser",
+              },
+            },
+            {
+              question:
+                "Has your champion been irrelevant until Babus became popular?",
+              answer: {
+                name: "Sion",
+              },
+            },
+          ],
+        },
+      ],
+    },
+    {
+      // 3
+      question: "Is your champion from Shurima?",
+      followupQuestionsOne: [
+        {
+          question: "Is your champion tied to the ascendant?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Was your champion the Shuriman Emperor thousands of years ago?",
+              answer: {
+                name: "Azir",
+              },
+            },
+            {
+              question: "Is your champion a traitor?",
+              answer: {
+                name: "Xerath",
+              },
+            }, // this is where the tree would deepen for Nasus and Reneketon into followupQuestionsThree
+          ],
+        },
+        {
+          question: "Is your champion human?",
+          followupQuestionsTwo: [
+            {
+              question: "Does your champion weave stones?",
+              answer: {
+                name: "Taliyah",
+              },
+            },
+            {
+              question: "Is your champion a mercenary?",
+              answer: {
+                name: "Sivir",
+              },
+            },
+          ],
+        },
+        {
+          question: "Is your champion relatively small?",
+          followupQuestionsTwo: [
+            {
+              question:
+                "Is your champion really, really, really sad, all the time?",
+              answer: {
+                name: "Amumu",
+              },
+            },
+            {
+              question: "Does your character know only one word?",
+              answer: {
+                name: "Rammus",
+              },
+            },
+          ],
+        },
+      ],
+    },
+  ];
+
   function restartTheGame() {
-    // this fixes it thank christ
+    // game restarts at first series
     restartButton.removeEventListener("click", restartTheGame);
     restartButton.remove();
 
@@ -394,24 +919,7 @@ function gameStarts() {
     buttonYes.removeEventListener("click", secondSeries);
     buttonNo.removeEventListener("click", firstSeriesNo);
 
-    gameStarts();
-  }
-
-  function secondSeries() {
-    console.log("woo!");
-    buttonYes.removeEventListener("click", secondSeries);
-    buttonNo.removeEventListener("click", gameStarts);
-    buttonNo.removeEventListener("click", secondSeries);
-    buttonNo.removeEventListener("click", firstSeriesNo);
-
-    if (questionsDatabase[0].followupQuestions.length === 0) {
-      liar(); // if all the questions relative to the first question are exhausted
-    } else {
-      const shuffledQuestions = questionsDatabase[0].followupQuestions.sort(
-        () => Math.random() - 0.5
-      );
-      secondSeriesQuestions(shuffledQuestions[0]);
-    }
+    firstSeries();
   }
 
   function liar() {
@@ -422,16 +930,118 @@ function gameStarts() {
     restartButton.addEventListener("click", restartTheGame, { once: true });
   }
 
+  const shuffledQuestions = questionsDatabase.sort(() => Math.random() - 0.5);
+  firstSeriesQuestions(shuffledQuestions[0]);
+
+  function firstSeriesQuestions(questions) {
+    jhinTextBoxTwo.innerHTML = questions.question;
+    buttonYes.addEventListener("click", secondSeries, { once: true }); // if yes, second series
+    buttonNo.addEventListener("click", firstSeriesNo, { once: true }); // if no, removes options from first series one by one until yes OR restart
+  }
+
+  function firstSeriesNo() {
+    {
+      if (questionsDatabase.length > 1) {
+        questionsDatabase.shift();
+        console.log(questionsDatabase);
+        const shuffledQuestions = questionsDatabase.sort(
+          () => Math.random() - 0.5
+        );
+        firstSeriesQuestions(shuffledQuestions[0]);
+      } else {
+        jhinTextBoxTwo.innerHTML =
+          "Your champion isn't real! Click restart to play again.";
+        buttonYes.remove();
+        buttonNo.remove();
+        buttonMaybe.remove();
+        answersBox.appendChild(restartButton);
+        restartButton.addEventListener("click", restartTheGame, { once: true });
+      }
+    }
+  }
+
+  // if first series succeeds, second series
+  function secondSeries() {
+    console.log("woo!");
+    buttonYes.removeEventListener("click", secondSeries);
+    buttonNo.removeEventListener("click", firstSeries);
+    buttonNo.removeEventListener("click", secondSeries);
+    buttonNo.removeEventListener("click", firstSeriesNo);
+
+    if (questionsDatabase[0].followupQuestionsOne.length === 0) {
+      liar(); // if all the possible answers are exhausted
+    } else {
+      const shuffledQuestions = questionsDatabase[0].followupQuestionsOne.sort(
+        () => Math.random() - 0.5
+      );
+      secondSeriesQuestions(shuffledQuestions[0]);
+    }
+  }
+
+  // if no in second series
+  function secondSeriesNo() {
+    {
+      if (questionsDatabase[0].followupQuestionsOne.length > 1) {
+        questionsDatabase[0].followupQuestionsOne.shift();
+        console.log(questionsDatabase[0].followupQuestionsOne);
+        const shuffledQuestions =
+          questionsDatabase[0].followupQuestionsOne.sort(
+            () => Math.random() - 0.5
+          );
+        secondSeriesQuestions(shuffledQuestions[0]);
+      } else {
+        jhinTextBoxTwo.innerHTML =
+          "Your champion isn't real! Click restart to play again.";
+        buttonYes.remove();
+        buttonNo.remove();
+        buttonMaybe.remove();
+        answersBox.appendChild(restartButton);
+        restartButton.addEventListener("click", restartTheGame, { once: true });
+      }
+    }
+  }
+
+  // if yes in second series, then second series questions
   function secondSeriesQuestions(questions) {
     jhinTextBoxTwo.innerHTML = questions.question;
-    buttonYes.addEventListener("click", jhinGuess, { once: true }); // this gets triggered pre-emptively but doesn't seem to cause issues
+    buttonYes.addEventListener("click", thirdSeries, { once: true }); // if yes, second series
+    buttonNo.addEventListener("click", secondSeriesNo, { once: true }); // if no, removes options from first series one by one until yes OR restart
+  }
+
+  // if second series succeeds, third series
+  function thirdSeries() {
+    console.log("getting there!");
+    buttonYes.removeEventListener("click", thirdSeries);
+    buttonNo.removeEventListener("click", thirdSeries);
+    buttonNo.removeEventListener("click", secondSeriesNo);
+
+    if (
+      questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo
+        .length === 0
+    ) {
+      liar();
+    } else {
+      const shuffledQuestions =
+        questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo.sort(
+          // this works just fine
+          () => Math.random() - 0.5
+        );
+      thirdSeriesQuestions(shuffledQuestions[0]);
+    }
+  }
+
+  function thirdSeriesQuestions(questions) {
+    jhinTextBoxTwo.innerHTML = questions.question;
+    buttonYes.addEventListener("click", jhinGuess, { once: true });
     buttonNo.addEventListener(
       "click",
       function () {
-        questionsDatabase[0].followupQuestions.shift();
-        console.log(questionsDatabase[0].followupQuestions);
+        questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo.shift();
+        console.log(
+          questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo
+        );
 
-        secondSeries(); // questionable
+        thirdSeries(); // questionable
       },
       { once: true }
     );
@@ -441,12 +1051,13 @@ function gameStarts() {
     // jhin attempts to guess the answer
     console.log("jhinGuess");
     console.log(questionsDatabase);
-    jhinTextBoxTwo.innerHTML = `Your champion is ${questionsDatabase[0].followupQuestions[0].answer.name}!`;
+    jhinTextBoxTwo.innerHTML = `Your champion is ${questionsDatabase[0].followupQuestionsOne[0].followupQuestionsTwo[0].answer.name}!`;
     // answer sometimes returns as undefined for whatever reason, doesn't seem to cause an issue at all though
     // probably because jhinGuess is triggered pre-emptively somewhere
     buttonYes.removeEventListener("click", jhinGuess);
   }
 }
+*/
 
 //
 //
